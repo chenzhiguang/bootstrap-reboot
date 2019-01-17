@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap-reboot",
+  "version": "1.0.0",
+  "description": "bootstrap reboot",
+  "main": "index.scss",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenzhiguang/bootstrap-reboot"
+  },
+  "author": "Zhiguang Chen <chen_zhiguang@yahoo.com>",
+  "license": "ISC"
+}
