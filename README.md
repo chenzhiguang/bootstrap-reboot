@@ -1,7 +1,7 @@
 ## About
 
 
-It is a copy of https://github.com/twbs/bootstrap/blob/master/scss/\_reboot.scss
+It is a copy of https://github.com/twbs/bootstrap/blob/master/scss/_reboot.scss
 
 
 
