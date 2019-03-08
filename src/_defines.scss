@@ -12,3 +12,6 @@
     @content;
   }
 }
+@mixin font-size( $size ) {
+  font-size: $size;
+}

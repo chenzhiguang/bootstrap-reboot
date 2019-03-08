@@ -1,13 +1,21 @@
+## About
+
+
+It is a copy of https://github.com/twbs/bootstrap/blob/master/scss/\_reboot.scss
+
+
+
 ## Install
 
     npm i bootstrap-reboot
 
 
-##Usage
+## Usage
 
     @import "~bootstrap-reboot";
 
 
-## Bootstrap version
+## Version
 
-    4.2.1
+
+  bootstrap-reboot uses the same version name as which version it came from.

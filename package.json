@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-reboot",
-  "version": "1.0.0",
-  "description": "bootstrap reboot",
+  "version": "4.3.1",
+  "description": "Bootstrap reboot",
   "main": "index.scss",
   "scripts": {
   },
