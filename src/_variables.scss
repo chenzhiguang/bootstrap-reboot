@@ -7,7 +7,7 @@ $primary                 : $blue !default;
 $body-color              : $gray-900 !default;
 $text-muted              : $gray-600 !default;
 $body-bg                 : $white !default;
-$theme-colors            : ( "primary": $primary,) !default;
+$theme-colors            : ( "primary": $primary) !default;
 $link-color              : theme-color("primary") !default;
 $link-hover-color        : darken($link-color, 15%) !default;
 $table-caption-color     : $text-muted !default;
@@ -31,3 +31,4 @@ $table-cell-padding      : .75rem !default;
 $label-margin-bottom     : .5rem !default;
 
 $enable-pointer-cursor-for-buttons: false !default;
+

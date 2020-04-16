@@ -6,12 +6,7 @@
   &:hover { @content; }
 }
 
-@mixin hover-focus {
-  &:hover,
-  &:focus {
-    @content;
-  }
-}
 @mixin font-size( $size ) {
   font-size: $size;
 }
+
