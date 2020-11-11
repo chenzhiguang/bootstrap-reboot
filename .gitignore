@@ -2,3 +2,7 @@
 .DS_Store
 Thumbs.db
 *.swp
+node_modules
+docs/styles.css
+docs/styles.css.map
+package-lock.json

@@ -4,11 +4,16 @@
   "description": "Bootstrap reboot",
   "main": "index.scss",
   "scripts": {
+    "start": "http-server ./docs & sass --watch ./docs/styles.scss ./docs/styles.css"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/chenzhiguang/bootstrap-reboot"
   },
   "author": "Zhiguang Chen <chen_zhiguang@yahoo.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "sass": "^1.29.0"
+  }
 }

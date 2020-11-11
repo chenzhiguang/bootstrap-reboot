@@ -1,21 +1,38 @@
 ## About
 
-
 It is a copy of https://github.com/twbs/bootstrap/blob/master/scss/_reboot.scss
-
-
 
 ## Install
 
-    npm i bootstrap-reboot
-
+```bash
+npm i bootstrap-reboot
+```
 
 ## Usage
 
-    @import "~bootstrap-reboot";
+```scss
+// Override some default values in src/_variables.scss
+$body-bg: #f5f5f5;
+$link-color: #f00;
 
+// Import bootstrap-reboot
+@import '~bootstrap-reboot';
+```
 
 ## Version
 
+bootstrap-reboot uses the same version as which version of bootstrap it comes from
 
-  bootstrap-reboot uses the same version name as which version it came from.
+---
+
+## How to run the example in `/docs` folder
+
+```bash
+npm install
+npm start
+```
+
+vist http://localhost:8080
+
+NOTE:
+You need to reload preview page manually when any file is changed
