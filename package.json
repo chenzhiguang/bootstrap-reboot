@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-reboot",
-  "version": "4.4.1",
+  "version": "4.5.3",
   "description": "Bootstrap reboot",
   "main": "index.scss",
   "scripts": {
@@ -13,6 +13,7 @@
   "author": "Zhiguang Chen <chen_zhiguang@yahoo.com>",
   "license": "ISC",
   "devDependencies": {
+    "bootstrap": "^4.5.3",
     "http-server": "^0.12.3",
     "sass": "^1.29.0"
   }

@@ -1,12 +1,9 @@
-@function theme-color($key: "primary") {
-  @return map-get($theme-colors, $key);
+@mixin hover() {
+  &:hover {
+    @content;
+  }
 }
 
-@mixin hover {
-  &:hover { @content; }
-}
-
-@mixin font-size( $size ) {
+@mixin font-size($size) {
   font-size: $size;
 }
-
