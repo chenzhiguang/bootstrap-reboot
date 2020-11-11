@@ -1,3 +1,7 @@
+@function theme-color($key: 'primary') {
+  @return map-get($theme-colors, $key);
+}
+
 @mixin hover() {
   &:hover {
     @content;
