@@ -22,7 +22,7 @@ $font-weight-bold        : 700 !default;
 $font-weight-bolder      : bolder !default;
 $line-height-base        : 1.5 !default;
 $spacer                  : 1rem !default;
-$headings-margin-bottom  : $spacer / 2 !default;
+$headings-margin-bottom  : math.div($spacer, 2) !default;
 $paragraph-margin-bottom : 1rem !default;
 $dt-font-weight          : $font-weight-bold !default;
 $link-decoration         : none !default;
